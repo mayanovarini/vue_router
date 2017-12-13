@@ -1,13 +1,23 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <Navigation />
+    <Friends />
+    <FooterComponent />
   </div>
 </template>
 
 <script>
+import Navigation from './components/Navigation'
+import Friends from './components/Friends'
+import FooterComponent from './components/Footer'
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    Navigation,
+    Friends,
+    FooterComponent,
+  }
 }
 </script>
 
