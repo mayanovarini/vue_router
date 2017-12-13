@@ -14,13 +14,15 @@
 import Navigation from './components/Navigation'
 import Friends from './components/Friends'
 import FooterComponent from './components/Footer'
+import HelloWorld from './components/HelloWorld'
+
 
 export default {
   name: 'app',
   components: {
     Navigation,
-    Friends,
     FooterComponent,
+    HelloWorld
   }
 }
 </script>
