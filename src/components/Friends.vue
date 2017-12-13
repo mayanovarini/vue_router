@@ -10,6 +10,7 @@
 import FriendStore from "../stores/FriendStore"
 
 export default {
+  name: 'Friends',
   data() {
     return {
       newFriend: null,

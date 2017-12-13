@@ -1,8 +1,12 @@
 <template>
   <div id="app">
     <Navigation />
-    <Friends />
+    <router-view/>
+    <router-link to="friends">Friends</router-link>
+    <router-link to="/">Say Hello!</router-link>
+
     <FooterComponent />
+
   </div>
 </template>
 
